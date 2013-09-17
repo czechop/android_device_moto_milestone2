@@ -18,16 +18,16 @@ TARGET_BOOTANIMATION_NAME := 480
 
 $(call inherit-product-if-exists, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product-if-exists, vendor/cm/config/gsm.mk)
-$(call inherit-product, device/moto/mb526/full_jordan.mk)
+$(call inherit-product, device/moto/milestone2/full_jordan.mk)
 
-DEVICE_PACKAGE_OVERLAYS += device/moto/mb526/overlay
+DEVICE_PACKAGE_OVERLAYS += device/moto/milestone2/overlay
 
-PRODUCT_NAME := cm_mb526
-PRODUCT_BRAND := motorola
-PRODUCT_DEVICE := mb526
-PRODUCT_MODEL := MB526
-PRODUCT_MANUFACTURER := MOTO
-PRODUCT_RELEASE_NAME := Motorola Defy+
+PRODUCT_NAME := cm_milestone2
+PRODUCT_BRAND := MOTO
+PRODUCT_DEVICE := milestone2
+PRODUCT_MODEL := A953
+PRODUCT_MANUFACTURER := motorola 
+PRODUCT_RELEASE_NAME := Milestone2 
 PRODUCT_SFX := umts
 
 UTC_DATE := $(shell date +%s)

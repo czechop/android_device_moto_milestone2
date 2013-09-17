@@ -17,7 +17,7 @@
 #
 # This is the product configuration for a generic Motorola Defy (jordan)
 #
-device_path = device/moto/mb526
+device_path = device/moto/milestone2
 
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_eu_supl.mk)

@@ -47,7 +47,7 @@
 $(call add-clean-step, rm -rf $(OUT_DIR)/target/common/obj/APPS/DefyParts_intermediates)
 
 # For the sensors lib, its better to rebuild it on defy/defy+ switch
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/SHARED_LIBRARIES/sensors.jordan_intermediates)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/SHARED_LIBRARIES/sensors.milestone2_intermediates)
 
 # ************************************************
 # NEWER CLEAN STEPS MUST BE AT THE END OF THE LIST
