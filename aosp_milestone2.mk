@@ -24,8 +24,8 @@
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/moto/milestone2/jordan.mk)
 
-PRODUCT_NAME := full_milestone2
-PRODUCT_DEVICE := milestone2 
+PRODUCT_NAME := aosp_milestone2
+PRODUCT_DEVICE := milestone2
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := A953
 PRODUCT_MANUFACTURER := motorola
