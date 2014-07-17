@@ -21,11 +21,11 @@
 # lines, full and toro, hence its name.
 #
 
-# Inherit from those products. Most specific first.
-$(call inherit-product, device/moto/milestone2/jordan.mk)
+# Inherit from milestone2 device
+$(call inherit-product, device/moto/milestone2/milestone2.mk)
 
 PRODUCT_NAME := full_milestone2
 PRODUCT_DEVICE := milestone2 
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := A953
-PRODUCT_MANUFACTURER := motorola
+PRODUCT_BRAND := Motorola
+PRODUCT_MODEL := A953 
+PRODUCT_MANUFACTURER := Motorola
