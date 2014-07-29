@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-$(call inherit-product, device/moto/mb526/full_mb526.mk)
+$(call inherit-product, device/moto/milestone2/full_milestone2.mk)
 
 # Inherit some common CM stuff
 $(call inherit-product, vendor/cm/config/gsm.mk)
